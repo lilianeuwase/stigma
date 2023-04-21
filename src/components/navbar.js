@@ -10,7 +10,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-
+import './navbar.css'
 
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -44,27 +44,27 @@ export default function Navbar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
          
 
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm font-semibold leading-6 text-gray-900 hover-item">
             Home
           </a>
-          <a href="/resources" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/resources" className="text-sm font-semibold leading-6 text-gray-900 hover-item">
             Abortion Resources
           </a>
-          <a href="/impact" className="text-sm font-semibold leading-6 text-gray-900">
-            Imapct Model
+          <a href="/impact" className="text-sm font-semibold leading-6 text-gray-900 hover-item">
+            Impact Model
           </a>
-          <a href="/partnership" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/partnership" className="text-sm font-semibold leading-6 text-gray-900 hover-item">
             Partnership
           </a>
-          <a href="/aboutus" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/aboutus" className="text-sm font-semibold leading-6 text-gray-900 hover-item">
             About Us
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/getinvolved" className="text-sm font-semibold leading-6 text-gray-900 hover-item1">
             Get Involved <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -127,7 +127,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="/getinvolved"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Get Involved
