@@ -39,22 +39,22 @@ export default function Hero() {
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
+                        {/* <img
                           src={require("../images/Prioritise-pana.png")}
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        />
+                        /> */}
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
+                        {/* <img
                           src={require("../images/Gynecology consultation-pana.png")}
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        />
+                        /> */}
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-48 overflow-hidden rounded-lg">
                         <img
                           src={require("../images/Abortion-amico.png")}
                           alt=""
@@ -62,20 +62,20 @@ export default function Hero() {
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
+                        {/* <img
                           src={require("../images/Woman infertility-pana.png")}
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        />
+                        /> */}
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
+                        {/* <img
                           src={require("../images/Gynecology consultation-amico.png")}
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        />
+                        /> */}
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img

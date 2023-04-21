@@ -13,7 +13,6 @@ export default function HomePage() {
     <Icons/>
     {/* <Stats/> */}
     <Stats2/>
-     
     </div>
   )
 }
