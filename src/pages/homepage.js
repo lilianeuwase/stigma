@@ -1,7 +1,8 @@
 
-import Hero from '../components/hero'
-import Icons from '../components/icons'
-import Stats2 from '../components/stats2'
+import HeroTemp from '../components/herotemp'
+import Hero from '../components/home/hero'
+import Icons from '../components/home/icons'
+import Stats2 from '../components/home/stats2'
 
 
 export default function HomePage() {
@@ -11,8 +12,8 @@ export default function HomePage() {
 
     <Hero/>
     <Icons/>
-    {/* <Stats/> */}
     <Stats2/>
+    <HeroTemp/>
     </div>
   )
 }

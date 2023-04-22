@@ -65,7 +65,7 @@ export default function Navbar() {
             Abortion Resources
           </a>
           <a
-            href="/impact"
+            href="/impactmodel"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Impact Model
