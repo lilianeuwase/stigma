@@ -76,7 +76,7 @@ export default function ImageGrid() {
           </div>
           <div className="text-left">
             <div class="line2"></div>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-amber-400 sm:text-4xl ">
+            <h2 className="mt-4 text-3xl font-bold tracking-tight text-rose-500 sm:text-4xl ">
               Inroads
             </h2>
 
@@ -103,7 +103,7 @@ export default function ImageGrid() {
             <a
               href="https://www.makeinroads.org/about-inroads"
               target="_blank"
-              className="mt-6 w-64 inline-block rounded-md border border-transparent bg-amber-400 px-8 py-3 text-center font-medium text-white hover:bg-amber-300"
+              className="mt-6 w-64 inline-block rounded-md border border-transparent bg-rose-500 px-8 py-3 text-center font-medium text-white hover:bg-rose-300"
             >
               Inroads
             </a>

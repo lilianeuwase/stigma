@@ -11,7 +11,7 @@ import Stats from "../components/stats";
 export default function ImpactModel() {
   return (
     <div>
-    <Hero/>
+      <Hero />
       <ImpactHero />
       <Quotes />
       <ImpactFeature />

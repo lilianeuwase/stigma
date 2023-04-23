@@ -23,14 +23,14 @@ export default function Hero() {
                 A community Model to fight Abortion Stigma
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                unconscious, that abortion is bad, shameful, or wrong within a
+                Unconscious, that abortion is bad, shameful, or wrong within a
                 given community and therefore, women who had abortion or who
                 seek abortion are stigmatized as well as healthcare providers
                 associated with abortion. At the end of the day, women remain
                 with no choices and denied their fundamental human right.
                 <div className="mt-8 flex items-center gap-x-4">
                   <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
-                    Our Fight
+                    Fight the Stigma
                   </h4>
                   <div className="h-px flex-auto bg-gray-100" />
                 </div>

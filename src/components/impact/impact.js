@@ -2,8 +2,10 @@ import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { analytics } from "../../Data/dummy";
-import { onephone } from "../../images";
+// import { inroadspic } from "../../images";
 import "../../Styles/analytics.scss";
+
+let inroadspic =require("../../images/inroadspic.png");
 
 const Impact = () => {
   const control = useAnimation();
@@ -68,25 +70,33 @@ const Impact = () => {
       >
         <motion.div variants={item1} className="left__analytics">
           <div className="left__text">
-            <h1>Okay, let's see D'task in numbers</h1>
+            <h1 className="font text-4xl font-bold tracking-tight sm:text-6xl mb-8">
+              Pollinate Seed Grant
+            </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit neque voluptas temporibus consectetur, accusantium,
-              soluta eligendi fuga fugiat doloremque sequi corrupti. Nam eveniet
-              odio sapiente eum? Quod accusamus distinctio incidunt.
+              Playing cards will have short-summarized messages, then a toolkit
+              will have full of information that will be used by players to
+              check more answers during their discussion. Our project model is
+              articulated with the concept of Pollinate Seed Grant, it will
+              result into tools that can be used in similar setting by both
+              adolescent girls to improve community dialogue around abortion and
+              reduce abortion stigma.
             </p>
           </div>
           <div className="left__analytics__container">
             {analytics.map((analytic, index) => (
               <div className="analytic__container" key={index}>
-                <div className="analytics__icon">{analytic.desc}</div>
+                <div className="analytics__icon">
+                <a href={analytic.link} target="_blank"> {analytic.desc}</a>
+               
+                </div>
                 <p>{analytic.name}</p>
               </div>
             ))}
           </div>
         </motion.div>
         <motion.div variants={item2} className="right__analytics">
-          <img src={onephone} alt="" draggable={false} />
+          <img src={inroadspic} alt="" draggable={false} />
         </motion.div>
       </motion.div>
     </div>

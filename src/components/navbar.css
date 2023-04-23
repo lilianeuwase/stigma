@@ -1,16 +1,24 @@
-.hover-item:hover,
-.hover-item:active {
-    color: #4f46e5;
-    text-decoration: underline;
-    text-underline-offset: 1em;
-    text-decoration-thickness: 2px;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+@property --offset {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0;
 }
 
-.hover-item1:hover {
+.hover-item:hover {
     color: #4f46e5;
 }
 
-a:active {
+.hover-item.active {
+    color: #4f46e5;
+    --offset: 1em;
+    text-underline-offset: var(--offset, 1em);
+    text-decoration: underline 2px;
+    transition: --offset 400ms, text-decoration-color 400ms;
+}
+
+.hover-item1:hover,
+.hover-item1.active {
     color: #4f46e5;
 }
 
@@ -29,7 +37,7 @@ a:active {
     transform: translateY(-50%);
     width: 9vw;
     height: 5px;
-    background: #fbbf24;
+    background: #f43f5e;
     animation: stretch 10s linear 3s infinite alternate;
     z-index: 2;
 }

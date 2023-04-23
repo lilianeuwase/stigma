@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
@@ -51,45 +52,45 @@ export default function Navbar() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
-          <a
-            href="/"
+          <NavLink
+            to="/"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item "
           >
             Home
-          </a>
+          </NavLink>
 
-          <a
-            href="/resources"
+          <NavLink
+            to="/resources"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Abortion Resources
-          </a>
-          <a
-            href="/impactmodel"
+          </NavLink>
+          <NavLink
+            to="/impactmodel"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Impact Model
-          </a>
-          <a
-            href="/partnership"
+          </NavLink>
+          <NavLink
+            to="/partnership"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Partnership
-          </a>
-          <a
-            href="/aboutus"
+          </NavLink>
+          <NavLink
+            to="/aboutus"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             About Us
-          </a>
+          </NavLink>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
-            href="/getinvolved"
+          <NavLink
+            to="/getinvolved"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item1"
           >
             Get Involved <span aria-hidden="true">&rarr;</span>
-          </a>
+          </NavLink>
         </div>
       </nav>
       <Dialog
@@ -101,13 +102,9 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-8 w-auto" src="" alt="" />
             </a>
             <button
               type="button"
@@ -121,44 +118,44 @@ export default function Navbar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
-                </a>
-                <a
-                  href="/resources"
+                </NavLink>
+                <NavLink
+                  to="/resources"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Abortion Resources
-                </a>
-                <a
-                  href="/impact"
+                </NavLink>
+                <NavLink
+                  to="/impact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Impact Model
-                </a>
-                <a
-                  href="/partnership"
+                </NavLink>
+                <NavLink
+                  to="/partnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Partnership
-                </a>
-                <a
-                  href="/aboutus"
+                </NavLink>
+                <NavLink
+                  to="/aboutus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
-                </a>
+                </NavLink>
               </div>
               <div className="py-6">
-                <a
-                  href="/getinvolved"
+                <NavLink
+                  to="/getinvolved"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Get Involved
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

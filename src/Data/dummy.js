@@ -22,24 +22,27 @@ export const routes = [
 
 export const analytics = [
   {
-    name: "Active users",
-    desc: "12M",
+    name: "Access the grants",
+    desc: "Apply",
+    link:"https://www.makeinroads.org/get-involved/grants",
   },
   {
-    name: "Languages",
-    desc: "16",
+    name: "Support Inroads",
+    desc: "Donate",
+    link:"https://www.makeinroads.org/get-involved/donate",
   },
   {
-    name: "Support",
-    desc: "24/7",
+    name: "Be a member",
+    desc: "Join",
+    link:"https://www.makeinroads.org/get-involved/join-inroads",
   },
 ];
 
 export const features = [
-  "Choose a view",
-  "Meet your new butler",
-  "Dive into the details",
-  "Power up",
+  "Pro Choice",
+  "Your Choice",
+  "Your body",
+  "Your Future",
 ];
 
 export const controls = [

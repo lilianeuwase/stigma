@@ -73,13 +73,16 @@ const ImpactFeature = () => {
         <motion.div variants={item2} className="right__feature">
           <div className="right__text">
             <h1>
-              Feature to help <br /> your team succeed
+              A Community Model to Fight Abortion Stigma 
+              {/* <br /> is designed
+              around the above concept */}
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              modi alias dolorem non nulla corporis dolorum enim optio ducimus
-              nihil, sint fugit, praesentium consectetur illum minima cum,
-              libero nobis debitis.
+              A community Model to fight Abortion Stigma is designed around the
+              above concept and will use innovative strategy to improve evidence
+              based information and community dialogue/discussions around
+              abortion using designed playing cards and Abortion Messaging
+              Toolkit.
             </p>
           </div>
           <div className="feature__content">
@@ -88,17 +91,17 @@ const ImpactFeature = () => {
                 <TiTick />
                 <div className="feature__text">
                   <p>{feature}</p>
-                  <span>
+                  {/* <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Odio, eos.
-                  </span>
+                  </span> */}
                 </div>
               </div>
             ))}
           </div>
         </motion.div>
       </motion.div>
-      <Control />
+      {/* <Control /> */}
     </div>
   );
 };
