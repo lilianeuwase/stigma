@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
@@ -7,6 +7,7 @@ import {
   ChartPieIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
+  HomeModernIcon,
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
@@ -30,16 +31,23 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 bg-white">
+    <header className="sticky top-0 bg-white z-40">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Abortion Stigma</span>
-            {/* <img className="h-8 w-auto" src="https://app.logo.com/view/logo_ad7f4f4a-19a7-44e4-a621-d0003f8e96db" alt="" /> */}
-          </a>
+        <div className="flex lg:flex-1 ">
+          <Link
+            to="/"
+            className="-m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo "
+          >
+            <img
+              className="h-8 w-auto absolute left-16"
+              src={require("../images/logo1.png")}
+              alt=""
+            />
+            Abortion Stigma
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -102,10 +110,17 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="" alt="" />
-            </a>
+            <Link
+              to="/"
+              className="-m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo "
+            >
+              <img
+                className="h-8 w-auto absolute left-16"
+                src={require("../images/logo1.png")}
+                alt=""
+              />
+              Abortion Stigma
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
