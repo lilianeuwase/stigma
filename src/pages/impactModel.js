@@ -1,21 +1,19 @@
-import Checks from "../components/checks";
-import Columns from "../components/columns";
-import Hero from "../components/impact/hero";
-import Impact from "../components/impact/impact";
+
+
+import ImpactAnimate from "../components/impact/impactAnimate";
 import ImpactFeature from "../components/impact/impactFeature";
 import ImpactHero from "../components/impact/impactHero.js";
-import ImpactVideo from "../components/impact/impactVideo";
+import ImpactIntro from "../components/impact/impactIntro";
 import Quotes from "../components/quotes";
-import Stats from "../components/stats";
 
 export default function ImpactModel() {
   return (
     <div>
-      <Hero />
+      <ImpactIntro />
       <ImpactHero />
       <Quotes />
       <ImpactFeature />
-      <Impact />
+      <ImpactAnimate />
     </div>
   );
 }

@@ -1,17 +1,24 @@
 export default function Hero() {
   return (
     <div className=" overflow-hidden bg-white">
-      <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-20 lg:pt-40">
         <div className=" mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-          <div className="sm:max-w-lg">
+          <div className="sm:max-w-xl ">
             <h1 className="font text-4xl font-bold tracking-tight text-indigo-600 sm:text-6xl mb-8">
-              Abortion Stigma
+              Abortion
             </h1>
             <p className="mt-0 text-xl text-gray-500">
               Having a baby is one the most enjoyable moment. Friends come with
               gifts and some people held parties to welcome the newborn.
               However, nowadays some of the pregnancies are not wanted so that
-              having that bay is no longer something to enjoy.
+              having that baby is no longer something to enjoy.
+              <br /> <br />
+              In all corners of the world, people use different ways to avoid
+              pregnancy. In Rwanda, there are some old culture traditions that
+              people use to perform in order to avoid pregnancy. Some of women
+              would bath in dump water to avoid being pregnant in old age. Some
+              of the families used to do some ceremonies to protect their young
+              girls to be pregnant.
               {/* <br /> <br/>
               In all corners of the world, people use different ways to avoid
               pregnancy. In Rwanda, there are some old culture traditions that
@@ -99,7 +106,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

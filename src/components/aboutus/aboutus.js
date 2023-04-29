@@ -2,7 +2,7 @@ const people = [
   {
     name: "Dr. Jean Paul Ndayizeye",
     role: "Co-Founder / CEO",
-    imageUrl: require("../../images/Ndayizeye.jpeg"),
+    imageUrl: require("../../images/Ndayizeye-nobg.png"),
   },
   // {
   //   name: "",
