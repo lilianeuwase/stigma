@@ -37,7 +37,7 @@ export default function ImpactHero() {
   return (
     <div className="bg-white py-24 sm:py-0">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center"></div>
+        {/* <div className="mx-auto max-w-2xl sm:text-center"></div> */}
         <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-0 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto lg:max-w-3xl">
             <h3 className="text-2xl font-bold tracking-tight text-rose-500">

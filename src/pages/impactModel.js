@@ -4,7 +4,7 @@ import ImpactAnimate from "../components/impact/impactAnimate";
 import ImpactFeature from "../components/impact/impactFeature";
 import ImpactHero from "../components/impact/impactHero.js";
 import ImpactIntro from "../components/impact/impactIntro";
-import Quotes from "../components/quotes";
+import Quotes from "../components/impact/quotes";
 
 export default function ImpactModel() {
   return (

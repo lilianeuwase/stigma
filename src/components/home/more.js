@@ -50,10 +50,10 @@ const features1 = [
 
 export default function More() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-20">
-          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:space-y-0">
             <div className="lg:max-w-lg text-left">
               <hr className="mb-8 left-line" />
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">

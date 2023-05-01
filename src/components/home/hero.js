@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className=" overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-white max-h-[39rem]">
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-20 lg:pt-40">
         <div className=" mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-xl ">
@@ -46,47 +46,47 @@ export default function Hero() {
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        {/* <img
-                          src={require("../images/Prioritise-pana.png")}
+                        <img
+                          src={require("../../images/Hospital patient-amico.png")} 
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        /> */}
+                        />
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        {/* <img
-                          src={require("../images/Gynecology consultation-pana.png")}
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        /> */}
-                      </div>
-                      <div className="h-64 w-48 overflow-hidden rounded-lg">
                         <img
-                          src={require("../../images/Abortion-amico.png")}
+                          src={require("../../images/Gender violence-pana.png")} 
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        {/* <img
-                          src={require("../images/Woman infertility-pana.png")}
+                        <img
+                          src={require("../../images/Gynecology consultation-cuate.png")} 
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        /> */}
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src={require("../../images/Gynecology consultation-rafiki.png")} 
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        {/* <img
-                          src={require("../images/Gynecology consultation-amico.png")}
+                        <img
+                          src={require("../../images/Headache-pana.png")} 
                           alt=""
                           className="h-full w-full object-cover object-center"
-                        /> */}
+                        />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={require("../../images/Breast cancer awareness-amico.png")}
+                          src={require("../../images/Breast cancer awareness-amico.png")} 
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
