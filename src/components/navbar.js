@@ -1,16 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { Fragment, useState } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  HomeModernIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Dialog, Popover, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
   PhoneIcon,
@@ -29,6 +20,13 @@ function classNames(...classes) {
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const handleIsOpen = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeSideBar = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header className="sticky top-0 bg-white z-40">
@@ -106,6 +104,9 @@ export default function Navbar() {
         className="lg:hidden"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
+        // mobileMenuOpen={mobileMenuOpen}
+        // onOpen={handleIsOpen}
+        // onClose={handleIsOpen}
       >
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -134,30 +135,35 @@ export default function Navbar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <NavLink
+                  onClick={closeSideBar}
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </NavLink>
                 <NavLink
+                  onClick={closeSideBar}
                   to="/resources"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Abortion Resources
                 </NavLink>
                 <NavLink
+                  onClick={closeSideBar}
                   to="/impactmodel"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Impact Model
                 </NavLink>
                 <NavLink
+                  onClick={closeSideBar}
                   to="/partnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Partnership
                 </NavLink>
                 <NavLink
+                  onClick={closeSideBar}
                   to="/aboutus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
@@ -166,6 +172,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <NavLink
+                  onClick={closeSideBar}
                   to="/getinvolved"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
