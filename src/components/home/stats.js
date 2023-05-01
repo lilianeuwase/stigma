@@ -1,16 +1,17 @@
+import { CursorArrowRaysIcon } from "@heroicons/react/20/solid";
+
 const links = [
-  { name: "Her age", href: "#" },
-  { name: "Her occupation", href: "#" },
-  { name: "Medical conditions", href: "#" },
-  { name: "Unintended pregnancy ", href: "#" },
-  { name: "Rape pregnancy", href: "#" },
-  { name: "Unreadiness", href: "#" },
+  { name: " Her age", href: "#" },
+  { name: " Her occupation", href: "#" },
+  { name: " Medical conditions", href: "#" },
+  { name: " Unintended pregnancy", href: "#" },
+  { name: " Rape pregnancy", href: "#" },
+  { name: " Unreadiness", href: "#" },
 ];
 const stats = [
   { name: "Procedures by women themselves", value: "67%" },
   { name: "Procedures by traditional healers ", value: "61%" },
   { name: "No medical attention", value: "30%" },
-
 ];
 
 export default function Stats() {
@@ -68,7 +69,8 @@ export default function Stats() {
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
+                <span aria-hidden="true">&rarr;</span>
+                {link.name} <span aria-hidden="true">&larr;</span>
               </a>
             ))}
           </div>

@@ -1,6 +1,11 @@
 import "./more.css";
 import {
+  AcademicCapIcon,
+  BoltSlashIcon,
+  BookmarkSlashIcon,
+  BuildingStorefrontIcon,
   CloudArrowUpIcon,
+  CursorArrowRippleIcon,
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
@@ -10,19 +15,19 @@ const features = [
     name: "Untrained.",
     description:
       "Overall, half of all abortions in Rwanda are performed by untrained individuals and are considered to be very high risk, an estimated 34% are provided by traditional healers and 17% are induced by the women themselves.",
-    icon: CloudArrowUpIcon,
+    icon: BoltSlashIcon,
   },
   {
     name: "Trained.",
     description:
       "About half of all abortions are provided by trained health professionals physicians (19%), nurses or medical assistants (16%) and trained midwives (14%). But many procedures do not take place in health facilities and result in complications.",
-    icon: LockClosedIcon,
+    icon: AcademicCapIcon,
   },
   {
     name: "Rural.",
     description:
       "Poor rural women are the most likely to go to untrained providers or to self-induce: Seventy-four percent of their abortions are from these sources, compared with 15% of those for non-poor women.",
-    icon: ServerIcon,
+    icon: BuildingStorefrontIcon,
   },
 ];
 
@@ -31,14 +36,14 @@ const features1 = [
     name: "Abortion Stigma.",
     description:
       "Stigma creates discomfort around abortion, which contributes to misinformation and lack of knowledge about abortion. That misinformation and pervasive stigma is weaponized to build and maintain barriers to abortion.",
-    icon: CloudArrowUpIcon,
+    icon: BookmarkSlashIcon,
   },
   {
     name: "Little knowledge.",
     description:
       "The adolescent period is a very crucial period of life, and they are in the transition phase so because of love and curiosity they may involve in sexual intercourse and due to the lack of knowledge and awareness in deciding what is irrational that could force them to adopt many unsafe experiences.",
 
-    icon: LockClosedIcon,
+    icon: CursorArrowRippleIcon,
   },
   // {
   //   name: "Rural.",
