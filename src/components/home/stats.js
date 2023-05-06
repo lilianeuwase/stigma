@@ -1,4 +1,35 @@
 import { CursorArrowRaysIcon } from "@heroicons/react/20/solid";
+import {
+  AcademicCapIcon,
+  BoltSlashIcon,
+  BookmarkSlashIcon,
+  BuildingStorefrontIcon,
+  CloudArrowUpIcon,
+  CursorArrowRippleIcon,
+  LockClosedIcon,
+  ServerIcon,
+} from "@heroicons/react/20/solid";
+
+const features = [
+  {
+    name: "Untrained.",
+    description:
+      "Overall, half of all abortions in Rwanda are performed by untrained individuals and are considered to be very high risk, an estimated 34% are provided by traditional healers and 17% are induced by the women themselves.",
+    icon: BoltSlashIcon,
+  },
+  {
+    name: "Trained.",
+    description:
+      "About half of all abortions are provided by trained health professionals physicians (19%), nurses or medical assistants (16%) and trained midwives (14%). But many procedures do not take place in health facilities and result in complications.",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "Rural.",
+    description:
+      "Poor rural women are the most likely to go to untrained providers or to self-induce: Seventy-four percent of their abortions are from these sources, compared with 15% of those for non-poor women.",
+    icon: BuildingStorefrontIcon,
+  },
+];
 
 const links = [
   { name: " Her age", href: "#" },
@@ -12,6 +43,8 @@ const stats = [
   { name: "Procedures by women themselves", value: "67%" },
   { name: "Procedures by traditional healers ", value: "61%" },
   { name: "No medical attention", value: "30%" },
+  { name: "Poor untrained/self-induced women", value: "15%" },
+  ,
 ];
 
 export default function Stats() {
@@ -49,31 +82,42 @@ export default function Stats() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 text-left">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl rose-line">
-            Some of reasons that may lead to illegal abortion
+            The situation of clandestine abortion in Rwanda
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             {/* This shows that the issue of avoiding pregnancy is not recent as you
             may think. It was done even the introduction of different
             contraceptive methods. But */}
-            With the modern medicine, preventing pregnant is made easy. However,
-            still, a great number of girls and women have unwanted pregnancies.
-            Some of them may wish to abort at any cost. In the country like ours
-            where abortion is illegal, a considerable number of women and girls
-            opt unsafe abortion.
+            The health risk of an abortion is directly related to how and by
+            whom the procedure is performed. Because of legal restrictions and
+            stigma, women seeking abortions often resort to clandestine
+            procedures, where safety cannot be assured.
             <br />
             <br />
-            Reasons that may prompt someone to do abortion at any cost are:
+            {/* Overall, half of all abortions in Rwanda are performed by untrained
+            individuals and are considered to be very high risk, an estimated
+            34% are provided by traditional healers and 17% are induced by the
+            women themselves.
+            <br />
+            Reasons that may prompt someone to do abortion at any cost are: */}
           </p>
+
+          <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
+            {features.map((feature) => (
+              <div key={feature.name} className="relative pl-9">
+                <dt className="inline font-semibold text-gray-900">
+                  <feature.icon
+                    className="absolute left-1 top-1 h-5 w-5 text-rose-500"
+                    aria-hidden="true"
+                  />
+                  {/* {feature.name} */}
+                </dt>{" "}
+                <dd className="inline">{feature.description}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-            {links.map((link) => (
-              <a key={link.name}>
-                <span aria-hidden="true">&rarr;</span>
-                {link.name} <span aria-hidden="true">&larr;</span>
-              </a>
-            ))}
-          </div>
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">

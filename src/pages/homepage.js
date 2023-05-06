@@ -3,8 +3,9 @@ import Hero from "../components/home/hero";
 import Hero2 from "../components/home/hero2";
 import Icons from "../components/home/icons";
 import More from "../components/home/more";
+import MoreBefore from "../components/home/morebefore";
 import Stats from "../components/home/stats";
-import Stats2 from "../components/home/stats2";
+
 
 export default function HomePage() {
   return (
@@ -12,10 +13,11 @@ export default function HomePage() {
       <Hero />
       <Icons />
       <Hero2 />
-      <Stats2 />
-      <Animate />
+      {/* <Stats2 /> */}
+      {/* <Animate /> */}
       <Stats />
       <More/>
+      {/* <MoreBefore/> */}
     </div>
   );
 }

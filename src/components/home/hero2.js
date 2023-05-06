@@ -10,7 +10,7 @@ import {
 export default function Hero2() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-0 lg:overflow-visible lg:px-0 lg:pb-12">
-      <div className="absolute inset-0 -z-10 overflow-hidden ">
+      {/* <div className="absolute inset-0 -z-10 overflow-hidden ">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
           aria-hidden="true"
@@ -40,7 +40,7 @@ export default function Hero2() {
             fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
           />
         </svg>
-      </div>
+      </div> */}
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -48,14 +48,14 @@ export default function Hero2() {
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 Rwanda
               </p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                 What is abortion? What’s the status of it in Rwanda?
               </h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">
+              {/* <p className="mt-6 text-xl leading-8 text-gray-700">
                 Abortion is defined as the termination of pregnancy before 20
                 weeks of pregnancy. Some of the countries even go up to 28 weeks
                 of pregnancy.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -70,10 +70,17 @@ export default function Hero2() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Although, abortion in Rwanda is illegal, in 2009 about 60,000
+                {/* Although, abortion in Rwanda is illegal,  */}
+                In 2009 about 60,000
                 women and girls had abortion, according to the research of
                 University of Rwanda, School of Public health. On average it’s
                 25 women in 1000 aged between 14 and 44.
+                <br/> <br/>
+                Forty percent of Rwandan women having an abortion are subject to
+              complications that require medical attention. Yet women are likely
+              to experience complications at different rates based on where they
+              obtain the abortion and who performed it. The complication rate is
+              as high as 54–55% among poor women in both rural and urban areas.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">

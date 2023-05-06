@@ -59,12 +59,12 @@ export default function Footer() {
               <a href="https://www.rwandayvchange.org/" target="_blank">
                 <img src={require("../images/ryvc.png")} />
               </a>
-              <a
+              {/* <a
                 href="https://www.makeinroads.org/about-inroads"
                 target="_blank"
               >
                 <img src={require("../images/inroads.png")} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

@@ -9,9 +9,15 @@ import Partnership from "./pages/partnership";
 import ImpactModel from "./pages/impactModel";
 import HeroTemp from "./components/herotemp";
 import ScrollToTop from "./components/ScrollToTop";
+import Resources from "./pages/resources";
+// import { ChakraProvider } from '@chakra-ui/react'
+// import { MantineProvider } from '@mantine/core';
 
 function App() {
   return (
+    // <ChakraProvider>
+    // <MantineProvider withGlobalStyles withNormalizeCSS>
+
     <Router>
     <Navbar/>
     <ScrollToTop>
@@ -23,6 +29,7 @@ function App() {
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/view" element={<HeroTemp />} />
+          <Route path="/resources" element={<Resources />} />
          
         </Routes>
        
@@ -30,6 +37,8 @@ function App() {
       </ScrollToTop>
       <Footer/>
     </Router>
+  //   </MantineProvider>
+  // </ChakraProvider>
   );
 }
 

@@ -34,18 +34,13 @@ export default function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1 ">
-          <Link
-            to="/"
-            className="-m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo "
-          >
-            <img
-              className="h-8 w-auto absolute left-16"
-              src={require("../images/logo1.png")}
-              alt=""
-            />
-            Abortion Stigma
-          </Link>
+        <div className="flex lg:flex-1 -m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo ">
+          <img
+            className="h-8 w-auto"
+            src={require("../images/logo1.png")}
+            alt=""
+          />
+          Abortion Stigma
         </div>
         <div className="flex lg:hidden">
           <button
@@ -83,12 +78,12 @@ export default function Navbar() {
           >
             Partnership
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/aboutus"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             About Us
-          </NavLink>
+          </NavLink> */}
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <NavLink
@@ -162,13 +157,13 @@ export default function Navbar() {
                 >
                   Partnership
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   onClick={closeSideBar}
                   to="/aboutus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
-                </NavLink>
+                </NavLink> */}
               </div>
               <div className="py-6">
                 <NavLink

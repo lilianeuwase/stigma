@@ -12,3 +12,11 @@
     width: 200px;
     margin-left: 311px;
 }
+
+.middle-line {
+    background: #4f46e5;
+    color: #4f46e5;
+    height: 6px;
+    width: 340px;
+    margin-left: 170px;
+}

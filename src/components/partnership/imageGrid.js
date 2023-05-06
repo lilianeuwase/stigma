@@ -1,3 +1,5 @@
+import AboutUs from "../aboutus/aboutus";
+
 const features = [
   {
     name: "This voluntary organization strives at initiating programs whose aim is to promote the better living standards of the population. RYVC targets young people and marginalized population, linking the provision of comprehensive sexuality education with improved sexual and reproductive health and rights services. RYVC is registered as non-profit organization",

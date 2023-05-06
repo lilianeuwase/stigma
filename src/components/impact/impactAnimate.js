@@ -83,7 +83,7 @@ const ImpactAnimate = () => {
               reduce abortion stigma.
             </p>
           </div>
-          <div className="left__analytics__container">
+          {/* <div className="left__analytics__container">
             {analytics.map((analytic, index) => (
               <div className="analytic__container" key={index}>
                 <div className="analytics__icon">
@@ -93,7 +93,7 @@ const ImpactAnimate = () => {
                 <p>{analytic.name}</p>
               </div>
             ))}
-          </div>
+          </div> */}
         </motion.div>
         <motion.div variants={item2} className="right__analytics">
           <img src={inroadspic} alt="" draggable={false} />
