@@ -72,6 +72,7 @@ export default function ResMore() {
             >
               <div className="flex items-center gap-x-4 text-xs">
                 <a
+                target="_blank"
                   href={post.category.href}
                   className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                 >
@@ -82,7 +83,7 @@ export default function ResMore() {
               </div>
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a href={post.href}>
+                  <a target="_blank" href={post.href}>
                     <span className="absolute inset-0" />
                     {post.title}
                   </a>
