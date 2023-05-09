@@ -16,7 +16,7 @@ export default function Footer() {
             <h4>company</h4>
             <ul>
               <li>
-                <a href="/aboutus">about us</a>
+                <a href="/getinvolved">about us</a>
               </li>
               <li>
                 <a href="/">our services</a>
@@ -52,6 +52,7 @@ export default function Footer() {
                 <FaLinkedinIn />
               </a>
             </div>
+            
           </div>
           <div class="footer-col">
             <h4>Our Partners</h4>

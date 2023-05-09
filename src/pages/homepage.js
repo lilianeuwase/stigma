@@ -1,3 +1,4 @@
+import AboutUs from "../components/aboutus/aboutus";
 import Animate from "../components/home/animate";
 import Hero from "../components/home/hero";
 import Hero2 from "../components/home/hero2";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Stats />
       <More/>
       {/* <MoreBefore/> */}
+      <AboutUs/>
     </div>
   );
 }

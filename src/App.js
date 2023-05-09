@@ -27,9 +27,10 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/impactmodel" element={<ImpactModel />} />
           <Route path="/partnership" element={<Partnership />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/getinvolved" element={<AboutUs />} />
           <Route path="/view" element={<HeroTemp />} />
           <Route path="/resources" element={<Resources />} />
+          
          
         </Routes>
        
