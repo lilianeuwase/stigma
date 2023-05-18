@@ -7,40 +7,40 @@ import {
 
 const features = [
   {
-    name: "Health Intervention",
+    name: "Women's bodily autonomy",
     description:
-      "It is safe when carried out using a method recommended by WHO, appropriate to the pregnancy duration and by someone with the necessary skills.",
+      "Access to abortion enables women to have control over their own bodies and make decisions about their reproductive health.",
     icon: BuildingOffice2Icon,
   },
   {
-    name: "Safety",
+    name: "Health and safety",
     description:
-      "Six out of 10 of all unintended pregnancies end in an induced abortion",
+      "When abortion is legal and accessible, it can be performed in a safe and regulated manner, reducing the risks associated with unsafe, clandestine procedures.",
     icon: HandThumbUpIcon,
   },
   {
-    name: "Awareness",
+    name: "Reproductive rights",
     description:
-      "Around 45% of all abortions are unsafe, of which 97% take place in developing countries",
+      "Access to abortion is a fundamental component of reproductive rights.",
     icon: LightBulbIcon,
   },
   {
-    name: "Unsafe Abortion",
+    name: "Reduction of maternal mortality",
     description:
-      "Unsafe abortion is a leading – but preventable – cause of maternal deaths and morbidities.",
+      "Unsafe abortions are a leading cause of maternal mortality worldwide. By providing access to safe and legal abortion, governments can help reduce maternal deaths associated with unsafe procedures.",
     // ' and social and financial burdens for women, communities and health systems.',
     icon: ScissorsIcon,
   },
   {
-    name: "Precaution",
+    name: "Impact on socio-economic factors",
     description:
-      "It can lead to physical and mental health complications and social and financial burdens for women, communities and health systems.",
+      "Unintended pregnancies can have significant socio-economic consequences for women, their families, and society.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Affordability",
+    name: "Public health benefits",
     description:
-      "Lack of access to safe, timely, affordable and respectful abortion care is a critical public health and human rights issue.",
+      "Access to abortion contributes to public health by reducing the incidence of unsafe abortions, which can lead to complications, infections, and long-term health issues.",
     // ' and social and financial burdens for women, communities and health systems.',
     icon: CurrencyDollarIcon,
   },

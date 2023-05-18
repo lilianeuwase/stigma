@@ -1,12 +1,12 @@
 const stats = [
-  { id: 1, name: "Pregnancies that end in induced abortion", value: "61%" },
+  { id: 1, name: "Of all pregnancies end in induced abortion", value: "61%" },
   {
     id: 2,
-    name: "Induced abortions taking place worldwide each year",
+    name: "Induced abortions take place worldwide each year",
     value: "73 million",
   },
 
-  { id: 3, name: "Unsafe pregnancies", value: "45%" },
+  { id: 3, name: "Of all pregnancies are unsafe", value: "45%" },
 ];
 
 export default function Stats2() {

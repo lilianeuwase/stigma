@@ -26,9 +26,9 @@ export default function Footer() {
           <div class="footer-col">
             <h4>get help</h4>
             <ul>
-              <li>
+              {/* <li>
                 <a href="/faq">FAQ</a>
-              </li>
+              </li> */}
               <li>
                 <a href="getinvolved">get involved</a>
               </li>

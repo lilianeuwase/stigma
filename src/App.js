@@ -10,6 +10,7 @@ import ImpactModel from "./pages/impactModel";
 import HeroTemp from "./components/herotemp";
 import ScrollToTop from "./components/ScrollToTop";
 import Resources from "./pages/resources";
+import Error404 from "./components/404";
 // import { ChakraProvider } from '@chakra-ui/react'
 // import { MantineProvider } from '@mantine/core';
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/getinvolved" element={<AboutUs />} />
           <Route path="/view" element={<HeroTemp />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="*" element={<Error404 />} />
           
          
         </Routes>
