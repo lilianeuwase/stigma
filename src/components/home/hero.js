@@ -11,7 +11,7 @@ export default function Hero() {
             <h1 className="font text-3xl font-bold tracking-tight text-indigo-600 sm:text-5xl mb-8 shine">
               Abortion
             </h1>
-            <p className="mt-0 text-lg text-gray-900">
+            <p className="mt-0 text-xl text-gray-900">
               Having a baby is one of the most enjoyable moment. Friends come with
               gifts and families throw parties to welcome the newborn. However,
               it is a different story when the pregnancy is not wanted, it
