@@ -15,7 +15,7 @@ const includedFeatures = [
     icon: UserGroupIcon,
   },
   {
-    name: "Acess to Safe Abortion",
+    name: "Access to Safe Abortion",
     icon: CheckBadgeIcon,
   },
 ];

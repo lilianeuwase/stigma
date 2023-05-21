@@ -55,17 +55,17 @@ export default function Footer() {
             
           </div>
           <div class="footer-col">
-            <h4>Our Partners</h4>
+            <h4>Supported by</h4>
             <div class="social-links">
               <a href="https://www.rwandayvchange.org/" target="_blank">
                 <img src={require("../images/ryvc.png")} />
               </a>
-              {/* <a
-                href="https://www.makeinroads.org/about-inroads"
+              <a
+                href="https://www.makeinroads.org/"
                 target="_blank"
               >
-                <img src={require("../images/inroads.png")} />
-              </a> */}
+                <img src={require("../images/inroads logo.png")} />
+              </a>
             </div>
           </div>
         </div>

@@ -6,7 +6,8 @@ export default function MadePossible() {
           Get Involved
         </h2> */}
         <p className="mt-6 text-lg leading-8 text-black font-bold">
-        This project was made possible through a partnership between Rwanda Youth Voice for Change and Inroad
+        {/* This project was made possible through a partnership between Rwanda Youth Voice for Change and Inroads */}
+        This project was possible with the support of Inroads.
         </p>
       </div>
     </div>

@@ -26,6 +26,11 @@ const posts = [
     category: {
       title1: "More",
       href1: "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/abortion-stigma",
+      title2: "More ..",
+      href2: "https://www.ippf.org/our-approach/programmes/tackling-abortion-stigma",
+      title3: "More ...",
+      href3: "https://www.ippf.org/sites/default/files/2017-02/How%20to%20educate%20about%20abortion%20-%20The%20Essentials.pdf",      
+    
     },
   },
   {
@@ -36,7 +41,14 @@ const posts = [
       "Forty percent of Rwandan women having an abortion are subject to complications that require medical attention. Yet women are likely to experience complications at different rates based on where they obtain the abortion and who performed it. The complication rate is as high as 54–55% among poor women in both rural and urban areas. Complication rates are highest for procedures that are induced by women themselves (67%) or are performed by traditional healers (61%), the kinds of procedures that poor rural women are more likely than other women to have. ",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "", href: "#" },
+    category: {
+      title1: "More",
+      href1: "https://www.ipas.org/resource/abortion-stigma-ends-here-a-toolkit-for-understanding-and-action/",
+      title2: "More ..",
+      href2: "https://www.ippf.org/our-approach/programmes/tackling-abortion-stigma",
+      title3: "More ...",
+      href3: "https://www.ippf.org/sites/default/files/2017-02/How%20to%20educate%20about%20abortion%20-%20The%20Essentials.pdf",      
+    },
   },
 
   // More posts...
