@@ -11,6 +11,9 @@ import HeroTemp from "./components/herotemp";
 import ScrollToTop from "./components/ScrollToTop";
 import Resources from "./pages/resources";
 import Error404 from "./components/404";
+import GetInvolved from "./pages/getInvolved";
+import HomePageKinya from "./pages/kinya/homepageKinya";
+import GetInvolvedKinya from "./pages/kinya/getInvolved";
 // import { ChakraProvider } from '@chakra-ui/react'
 // import { MantineProvider } from '@mantine/core';
 
@@ -20,18 +23,23 @@ function App() {
     // <MantineProvider withGlobalStyles withNormalizeCSS>
 
     <Router>
-    <Navbar/>
+    {/* <Navbar/> */}
     <ScrollToTop>
       <div className="App">
         <Routes>
-        
+
+          {/* English */}
           <Route path="/" element={<HomePage />} />
           <Route path="/impactmodel" element={<ImpactModel />} />
           <Route path="/partnership" element={<Partnership />} />
-          <Route path="/getinvolved" element={<AboutUs />} />
+          <Route path="/getinvolved" element={<GetInvolved />} />
           <Route path="/view" element={<HeroTemp />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="*" element={<Error404 />} />
+
+          {/* Kinyarwanda */}
+          <Route path="/kinya" element={<HomePageKinya />} />
+          <Route path="/kinya/getinvolved" element={<GetInvolvedKinya />} />
           
          
         </Routes>

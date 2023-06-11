@@ -22,6 +22,11 @@
     color: #4f46e5;
 }
 
+.hover-item2:hover,
+.hover-item2.active {
+    color: #efcf17f2;
+}
+
 .line1 {
     /* position: absolute; */
     transform: translateY(-50%);

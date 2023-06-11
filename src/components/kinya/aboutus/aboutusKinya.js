@@ -1,11 +1,10 @@
 import { AtSymbolIcon, PhoneXMarkIcon } from "@heroicons/react/20/solid";
-import Navbar from "../navbar";
 
 const people = [
   {
     name: "info@rwandayvchange.org",
     role: "+250 786 111 498",
-    imageUrl: require("../../images/Ndayizeye-nobg.png"),
+    imageUrl: require("../../../images/Ndayizeye-nobg.png"),
   },
   // {
   //   name: "",
@@ -25,7 +24,7 @@ const people = [
   // },
 ];
 
-export default function AboutUs() {
+export default function AboutUsKinya() {
   return (
     <div>
     <div className="bg-indigo-200 py-24 sm:py-8 ">
@@ -40,10 +39,10 @@ export default function AboutUs() {
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Get Involved
+          Fatanya Natwe
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Get Involved with us and take part in fighting Abortion Stigma to ensure our women's safety and health, contact us
+          Fatanya natwe kandi ugire uruhare mu kurwanya akato gakorerwa abakuramo  inda , duharanira  ubuzima bwiza  bw’ababyeyi bacu.
           </p>
         </div>
 

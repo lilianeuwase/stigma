@@ -7,10 +7,12 @@ import More from "../components/home/more";
 import MoreBefore from "../components/home/morebefore";
 import Stats from "../components/home/stats";
 
+import Navbar from "../components/navbar";
 
 export default function HomePage() {
   return (
     <div>
+    <Navbar/>
       <Hero />
       <Icons />
       <Hero2 />

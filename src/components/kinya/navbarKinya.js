@@ -7,7 +7,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
-import "./navbar.css";
+import "../navbar.css";
 
 const callsToAction = [
   { name: "Watch demo", href: "#", icon: PlayCircleIcon },
@@ -18,7 +18,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+export default function NavbarKinya() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const handleIsOpen = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1 -m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo ">
           <img
             className="h-8 w-auto"
-            src={require("../images/logo1.png")}
+            src={require("../../images/logo1.png")}
             alt=""
           />
           Abortion Stigma
@@ -54,43 +54,43 @@ export default function Navbar() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
           <NavLink
-            to="/"
+            to="/kinya"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item "
           >
-            Home
+            Ahabanza
           </NavLink>
 
           <NavLink
-            to="/resources"
+            to="/kinya/resources"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
-            Abortion Resources
+            Ibyerekeye Gukuramo Inda
           </NavLink>
           <NavLink
-            to="/impactmodel"
+            to="/kinya/impactmodel"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
-            Impact Model
+            Icyitegererezo
           </NavLink>
           <NavLink
-            to="/partnership"
+            to="/kinya/partnership"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
-            Partnership
+            Ubufatanye
           </NavLink>
           <NavLink
-            to="/getinvolved"
+            to="/kinya/getinvolved"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item1"
           >
-            Get Involved <span aria-hidden="true">&rarr;</span>
+            Fatanya Natwe <span aria-hidden="true">&rarr;</span>
           </NavLink>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-12">
           <NavLink
-            to="/kinya"
+            to="/"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item2"
           >
-           Kinyarwanda 
+           English 
            {/* <span aria-hidden="true">&rarr;</span> */}
           </NavLink>
         </div>
@@ -108,12 +108,12 @@ export default function Navbar() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link
-              to="/"
+              to="/kinya"
               className="-m-1.5 p-1.5 text-indigo-800 font-bold navbar-logo "
             >
               <img
                 className="h-8 w-auto absolute left-16"
-                src={require("../images/logo1.png")}
+                src={require("../../images/logo1.png")}
                 alt=""
               />
               Abortion Stigma
@@ -132,47 +132,47 @@ export default function Navbar() {
               <div className="space-y-2 py-6">
                 <NavLink
                   onClick={closeSideBar}
-                  to="/"
+                  to="/kinya"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Home
+                  Ahabanza
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/resources"
+                  to="/kinya/resources"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Abortion Resources
+                  Ibyerekeye Gukuramo Inda
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/impactmodel"
+                  to="/kinya/impactmodel"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Impact Model
+                 Icyitegererezo
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/partnership"
+                  to="/kinya/partnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Partnership
+                  Ubufatanye
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/getinvolved"
+                  to="/kinya/getinvolved"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Get Involved
+                 Fatanya Natwe
                 </NavLink>
               </div>
               <div className="py-6">
                 <NavLink
                   onClick={closeSideBar}
-                  to="/kinya"
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Kinyarwanda
+                  English
                 </NavLink>
               </div>
             </div>

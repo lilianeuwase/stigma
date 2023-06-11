@@ -1,6 +1,9 @@
+import Navbar from "./navbar";
+
 export default function Error404() {
     return (
       <>
+      <Navbar/>
         {/*
           This example requires updating your template:
   
