@@ -14,6 +14,9 @@ import Error404 from "./components/404";
 import GetInvolved from "./pages/getInvolved";
 import HomePageKinya from "./pages/kinya/homepageKinya";
 import GetInvolvedKinya from "./pages/kinya/getInvolved";
+import ResourcesKinya from "./pages/kinya/resourcesKinya";
+import ImpactModelKinya from "./pages/kinya/impactModelKinya";
+import PartnershipKinya from "./pages/kinya/partnershipKinya";
 // import { ChakraProvider } from '@chakra-ui/react'
 // import { MantineProvider } from '@mantine/core';
 
@@ -39,7 +42,11 @@ function App() {
 
           {/* Kinyarwanda */}
           <Route path="/kinya" element={<HomePageKinya />} />
-          <Route path="/kinya/getinvolved" element={<GetInvolvedKinya />} />
+          <Route path="/kinyagetinvolved" element={<GetInvolvedKinya />} />
+          <Route path="/kinyaresources" element={<ResourcesKinya />} />
+          <Route path="/kinyaimpactmodel" element={<ImpactModelKinya />} />
+          <Route path="/kinyaimpactmodel" element={<ImpactModelKinya />} />
+          <Route path="/kinyapartnership" element={<PartnershipKinya />} />
           
          
         </Routes>

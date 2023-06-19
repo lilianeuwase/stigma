@@ -61,25 +61,25 @@ export default function NavbarKinya() {
           </NavLink>
 
           <NavLink
-            to="/kinya/resources"
+            to="/kinyaresources"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Ibyerekeye Gukuramo Inda
           </NavLink>
           <NavLink
-            to="/kinya/impactmodel"
+            to="/kinyaimpactmodel"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Icyitegererezo
           </NavLink>
           <NavLink
-            to="/kinya/partnership"
+            to="/kinyapartnership"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item"
           >
             Ubufatanye
           </NavLink>
           <NavLink
-            to="/kinya/getinvolved"
+            to="/kinyagetinvolved"
             className="text-sm font-semibold leading-6 text-gray-900 hover-item1"
           >
             Fatanya Natwe <span aria-hidden="true">&rarr;</span>
@@ -139,28 +139,28 @@ export default function NavbarKinya() {
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/kinya/resources"
+                  to="/kinyaresources"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Ibyerekeye Gukuramo Inda
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/kinya/impactmodel"
+                  to="/kinyaimpactmodel"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                  Icyitegererezo
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/kinya/partnership"
+                  to="/kinyapartnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Ubufatanye
                 </NavLink>
                 <NavLink
                   onClick={closeSideBar}
-                  to="/kinya/getinvolved"
+                  to="/kinyagetinvolved"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                  Fatanya Natwe

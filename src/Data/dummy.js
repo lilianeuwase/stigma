@@ -39,10 +39,10 @@ export const analytics = [
 ];
 
 export const features = [
-  "Pro Choice",
-  "Your Choice",
-  "Your body",
-  "Your Future",
+  "Hitamo",
+  "Amahitamo Yawe",
+  "Umubiri Wawe",
+  "Ejo Hazaza Hawe",
 ];
 
 export const controls = [
