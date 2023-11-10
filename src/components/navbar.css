@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+@property --offset {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0;
+}
+
+.hover-item:hover {
+    color: #4f46e5;
+}
+
+.hover-item.active {
+    color: #4f46e5;
+    --offset: 1em;
+    text-underline-offset: var(--offset, 1em);
+    text-decoration: underline 2px;
+    transition: --offset 400ms, text-decoration-color 400ms;
+}
+
+.hover-item1:hover,
+.hover-item1.active {
+    color: #4f46e5;
+}
+
+.hover-item2:hover,
+.hover-item2.active {
+    color: #efcf17f2;
+}
+
+.line1 {
+    /* position: absolute; */
+    transform: translateY(-50%);
+    width: 9vw;
+    height: 5px;
+    background: #3730a3;
+    animation: stretch 10s linear 3s infinite alternate;
+    z-index: 2;
+}
+
+.line2 {
+    /* position: absolute; */
+    transform: translateY(-50%);
+    width: 9vw;
+    height: 5px;
+    background: #f43f5e;
+    animation: stretch 10s linear 3s infinite alternate;
+    z-index: 2;
+}
